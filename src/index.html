@@ -10,35 +10,46 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Adil's App</title>
+    <title>Mandelbrot Set</title>
   </head>
   <body>
     <main class="wrapper">
       <header class="masthead">
-        <h1><a href="#">Adil Zeshan</a></h1>
+        <h1><a href="#">Mandelbrot Set</a></h1>
       </header>
 
-      <section class="skills">
-        <ul>
-          <li><i class="fab fa-html5 fa-3x"></i></li>
-          <li><i class="fab fa-css3 fa-3x"></i></li>
-          <li><i class="fab fa-js fa-3x"></i></li>
-          <li><i class="fab fa-react fa-3x"></i></li>
-          <li><i class="fab fa-node fa-3x"></i></li>
-        </ul>
+      <section id="intro">
+        <p>
+          Built with JavaScript and HTML5 canvas. It is a work in progress. The
+          aim is to make it an (infinitely) zoomable fractal without any loss of
+          detail. This and other features will be added over time (see roadmap).
+        </p>
       </section>
 
-      <section class="portfolio"></section>
-
-      <section class="hero">
-        <img src="http://lorempixel.com/1000/600/nature" />
+      <section id="portfolio">
+        <canvas id="fractal" width="800" height="600"></canvas>
       </section>
-      <footer><p>&copy; Adil Zeshan</p></footer>
+      <footer>
+        <p>Built by Adil Zeshan</p>
+        <p>
+          Source code and Roadmap: <br />
+          <a
+            href="https://github.com/adilzeshan/mandelbrot-set"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </p>
+      </footer>
     </main>
   </body>
 </html>

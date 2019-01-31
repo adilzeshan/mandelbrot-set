@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Cinzel", serif;
   margin: 0;
-  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  background-image: linear-gradient(260deg, #d0d1e6 0%, #0570b0 100%);
 }
 
 .masthead a {
@@ -32,10 +32,6 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 
-img {
-  width: 100%;
-}
-
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -51,11 +47,13 @@ footer {
   font-weight: 100;
 }
 
-.skills ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+#intro p {
+  font-family: "Lato", san-serif;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+footer a {
+  color: white;
 }
